@@ -51,13 +51,7 @@ using vpdd = vector<pdd>;
 
 //0 n^2
 void solve(){
-	int n,m,k;
-	vector<int>perm(n);
-	iota(perm.begin(),perm.end());
-	reverse(perm.begin(),perm.end());
-	reverse(perm.end()-m,perm.begin());
-	for (auto i:perm)cout<<i<<" ";
-	cout<<endl;
+	
 }
 
 
