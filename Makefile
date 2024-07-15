@@ -1,6 +1,6 @@
 
 
-a : test.o
+a : test.o 
 	g++ test.o -o make
 
 main.o: test.cpp
